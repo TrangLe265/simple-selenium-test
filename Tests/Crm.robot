@@ -44,10 +44,10 @@ Should be able to add new customer
     input text               id=FirstName       John
     input text               id=LastName        Doe
     input text               id=City            New York
-    select from list by value       id=StateOrRegion           NY
-    select radio button           gender     male
-    select checkbox               name=promos-name
-    click button                  Submit
+    select from list by value       id=StateOrRegion            NY
+    select radio button             gender                      male
+    select checkbox                 name=promos-name
+    click button                    Submit
     wait until page contains        Success! New customer added.
     
 clear        
